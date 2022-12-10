@@ -1,3 +1,9 @@
+---
+title:  Java snippets
+has_children: false
+nav_order: 2
+---
+
 **1. How to fetch script output and add to logging**
 
 Pass the process object to below method and allow it to add the stderr, stdout to default logging
