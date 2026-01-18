@@ -1,29 +1,27 @@
 ---
 seo:
-  title: Write beautiful docs with Markdown
-  description: Ship fast, flexible, and SEO-optimized documentation with beautiful
-    design out of the box. Docus brings together the best of the Nuxt ecosystem.
-    Powered by Nuxt UI.
+  title: Personal Knowledge Base
+  description: A personal collection of notes, learnings, and resources.
 ---
 
 ::u-page-hero
 #title
-Write beautiful docs with Markdown
+Personal Knowledge Base
 
 #description
-Ship fast, flexible, and SEO-optimized documentation with beautiful design out of the box.
+A collection of notes, learnings, and resources I've gathered over time.
 
-Docus brings the best of the Nuxt ecosystem into one CLI.
+Organized for quick reference and continuous learning.
 
 #links
   :::u-button
   ---
   color: neutral
   size: xl
-  to: /getting-started/installation
+  to: /openssl
   trailing-icon: i-lucide-arrow-right
   ---
-  Get started
+  Explore
   :::
 
   :::u-button
@@ -31,93 +29,50 @@ Docus brings the best of the Nuxt ecosystem into one CLI.
   color: neutral
   icon: simple-icons-github
   size: xl
-  to: https://github.com/nuxt-content/docus
+  to: https://github.com/akashp1712/knowledge
   variant: outline
   ---
-  Star on GitHub
+  View on GitHub
   :::
 ::
 
 ::u-page-section
 #title
-Shipped with many features
+What's Inside
 
 #features
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://nuxt.com
+  icon: i-lucide-lock
+  to: /openssl
   ---
   #title
-  Built with [Nuxt 4]{.text-primary}
-  
+  OpenSSL
+
   #description
-  Optimized by the most famous Vue framework. Docus gives you everything you need to build fast, performant, and SEO-friendly websites.
+  Command reference for certificates, keys, encryption, and verification.
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://ui.nuxt.com/
+  icon: i-lucide-book-open
+  to: /syntax-reference/introduction
   ---
   #title
-  Powered by [Nuxt UI]{.text-primary}
-  
+  Syntax Reference
+
   #description
-  Beautiful out of the box, minimal by design but highly customizable. Docus leverages Nuxt UI to give you the best docs writing experience with zero boilerplate, just focus on your content.
+  Markdown syntax and documentation writing guides.
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://content.nuxt.com
+  icon: i-lucide-search
   ---
   #title
-  Enhanced Markdown syntax by [Nuxt Content]{.text-primary}
-  
-  #description
-  The only thing you need to take care about is writing your content. Write your pages in Markdown and extend with MDC syntax to embed Nuxt UI or custom Vue components. Structure, routing, and rendering are handled for you.
-  :::
+  Full-text Search
 
-  :::u-page-feature
-  ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://nuxt.com/docs/guide/directory-structure/app-config
-  ---
-  #title
-  Customize with [Nuxt App Config]{.text-primary}
-  
   #description
-  Update colors, social links, header logos and component styles globally using the `app.config.ts`, no direct code modifications required.
-  :::
-
-  :::u-page-feature
-  ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://content.nuxt.com/studio
-  ---
-  #title
-  Edit in production with [Nuxt Studio]{.text-primary}
-  
-  #description
-  Edit your content in production with zero Markdown knowledge required. Let your non technical colleagues collaborate on the documentation and integrate Vue components without code skills.
-  :::
-
-  :::u-page-feature
-  ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://ui.nuxt.com/components/content-search
-  ---
-  #title
-  Built-in navigation and [full-text search]{.text-primary}
-  
-  #description
-  Only focus on ordering your content, Docus handles the search modal and auto-generates the side navigation for you.
+  Use the search to quickly find what you're looking for across all content.
   :::
 ::
