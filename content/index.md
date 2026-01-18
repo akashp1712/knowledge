@@ -55,6 +55,18 @@ What's Inside
 
   :::u-page-feature
   ---
+  icon: i-lucide-phone
+  to: /voice-ai
+  ---
+  #title
+  Voice AI
+
+  #description
+  Building AI phone calls with Twilio, LLMs, and speech services.
+  :::
+
+  :::u-page-feature
+  ---
   icon: i-lucide-book-open
   to: /syntax-reference/introduction
   ---
@@ -63,16 +75,5 @@ What's Inside
 
   #description
   Markdown syntax and documentation writing guides.
-  :::
-
-  :::u-page-feature
-  ---
-  icon: i-lucide-search
-  ---
-  #title
-  Full-text Search
-
-  #description
-  Use the search to quickly find what you're looking for across all content.
   :::
 ::
