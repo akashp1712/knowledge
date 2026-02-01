@@ -67,6 +67,18 @@ What's Inside
 
   :::u-page-feature
   ---
+  icon: i-simple-icons-robotframework
+  to: /agents
+  ---
+  #title
+  AI Agents
+
+  #description
+  Understanding different types of AI agents and their implementations.
+  :::
+
+  :::u-page-feature
+  ---
   icon: i-lucide-book-open
   to: /syntax-reference/introduction
   ---
@@ -76,4 +88,6 @@ What's Inside
   #description
   Markdown syntax and documentation writing guides.
   :::
+::
+
 ::
