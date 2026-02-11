@@ -79,6 +79,18 @@ What's Inside
 
   :::u-page-feature
   ---
+  icon: i-lucide-brain-circuit
+  to: /context-engineering
+  ---
+  #title
+  Context Engineering
+
+  #description
+  Managing context windows and optimizing LLM conversations.
+  :::
+
+  :::u-page-feature
+  ---
   icon: i-lucide-book-open
   to: /syntax-reference/introduction
   ---
